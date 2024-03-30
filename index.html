@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- menu -->
+    <header>
+<h1>Portifólio</h1>
+<nav>
+    <ul>
+        <a href="#SobreMim">Sobre mim</a>
+        <a href="#objetivo">Objetivo</a>
+        <a href="#contato">Contato</a>
+    </ul>
+</nav>
+    </header>
+    <!-- corpo da page -->
+    <main>
+<div id="intro">
+    <div id="apresentação">
+        <p>Olá, seja bem vindo!</p>
+        <p>Meu nome é <span>Luana Marques</span> e eu sou um desenvolvedor WEB.</p>
+    </div>
+    <div id="redes-sociais">
+       <a href="#">
+       <img src="./imagens/icons8-github-50.png" alt="">
+       </a>
+       <a href="#">
+       <img src="./imagens/icons8-linkedin-50.png" alt="">
+       </a>
+    </div>
+    <div>
+        <a href="#SobreMim">
+            <button>Conheça mais sobre mim</button>
+        </a>
+    </div>
+</div>
+    <div id="img-dev">
+        <img src="imagens/img.png" alt=""> 
+        
+    </div>
+</div>
+    </main>
+    <!-- sobre mim -->
+    <section id="SobreMim">
+    <div id="resumo">
+        <h2>Sobre Mim</h2>
+        <p>
+            Meu nome é Luana, tenho 35 anos, estou embarcando em uma  jornada de aprendizado no mundo do desenvolvimento web. Embora eu não tenha experiência prévia nesta área, estou cheia de entusiasmo e determinação.
+            Entendo que o caminho pela frente pode ser desafiador, mas estou determinada a superar cada obstáculo com dedicação e perseverança. <br> 
+            Estou ciente de que o desenvolvimento web é um campo em constante evolução, e estou preparada para abraçar essa jornada de aprendizado contínuo.
+            Embora o desconhecido possa parecer assustador, estou confiante de que minha determinação e paixão pela aprendizagem me levarão a grandes conquistas no mundo do desenvolvimento web. <br>
+            Estou ansiosa para ver onde essa jornada me levará e estou pronta para abraçar cada desafio que surgir no caminho.
+        </p>
+    </div>
+    <div id="MeusConhecimentos">
+        <h2>Meus Conhecimentos</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ul>
+
+    </div>
+
+    </section>
+    <section id="objetivo">
+        <div id="Objetivo">
+             <h2>Objetivo</h2>
+             <p>Como desenvolvedor especializado em HTML, CSS e JavaScript, meu objetivo é aplicar minha experiência a criação de interfaces web dinâmicas e responsivas. <br>
+                Busco oportunidades que me permitam colaborar em projetos desafiadores.
+                Estou sempre disposto a aprender e me adaptar às novas tecnologias e tendências do mercado. <br>
+                Estou aberta a tutoriais, cursos online, e qualquer recurso que me ajude a expandir meus conhecimentos e habilidades na programação.
+            </p>
+        </div>
+    </section>
+    <!-- contato -->
+    <section id="contato">
+        <h2>Você pode me enviar uma mensagem!</h2>
+        <p>
+            Preencha seu nome, seu e-mail e escreva a mensagem que deseja me enviar. Assim que eu estiver disponivel irei responder. <br>
+            Desde já, agradeço seu contato!
+        </p>
+        <form>
+            <label for="email">Nome</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="nome">E-mail</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensagem">Mensagem</label><br>
+            <textarea name="mensagem" id="mensagem" cols="50" rows="4" required></textarea><br><br>
+
+            <input type="submit" name="" id="btnEnviar" value="Enviar">
+        </form>
+    </section>
+    <script src="script.js"></script>
+
+</body>
+</html>
